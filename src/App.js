@@ -3,6 +3,7 @@ import AlgoQuestionsSummary from "./components/AlgoQuestions/AlgoQuestionsSummar
 import {Route, Routes} from "react-router-dom";
 import Layout from "./components/Layout";
 import DebounceInput from "./components/Debounce/Debounce";
+import Autocomplete from "./components/Autocomplete/Autocomplete";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
                 <Route path="algoquestions" element={<AlgoQuestionsSummary />} />
                 <Route path="todo" element={<TodoList />} />
                 <Route path="debounce" element={<DebounceInput />} />
+                <Route path="autocomplete" element={<Autocomplete />} />
             </Route>
         </Routes>
     );

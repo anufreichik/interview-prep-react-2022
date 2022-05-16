@@ -1,0 +1,38 @@
+.officeListItemContainer{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    background: linear-gradient(#ddeafd, #efefef);
+}
+
+.officeListItemInfo{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.officeSchedulerItemsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+.scheduler-button{
+    border:1px solid lightgray;
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    color:#2c7df3;
+    font-size: 11px;
+    cursor:pointer;
+}
+.scheduler-button.busy{
+    border:1px solid lightgray;
+    width: 60px;
+    height: 40px;
+    background-color: #fccccc;
+    color:#2c7df3;
+    font-size: 11px;
+    cursor:not-allowed;
+}

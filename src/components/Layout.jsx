@@ -10,6 +10,8 @@ const Layout = () => {
                 <Link to="algoquestions">AlgoQuestions</Link>|{" "}
                 <Link to="debounce">Debounce</Link>|{" "}
                 <Link to="autocomplete">Autocomplete</Link>|{" "}
+                <Link to="marketplace">Market Place</Link>|{" "}
+                <Link to="office">Office</Link>|{" "}
             </nav>
             <div className="content">
                 <main>

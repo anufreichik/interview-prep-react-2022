@@ -1,0 +1,13 @@
+.header {
+    background-color: #2c7df3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}

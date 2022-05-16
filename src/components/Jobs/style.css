@@ -1,0 +1,28 @@
+.container{
+    display:flex;
+    justify-content: center;
+    margin:0 20px;
+    padding:10px;
+    width:1200px;
+    border:1px solid black;
+    margin:10px auto;
+}
+.projects-container{
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+
+}
+.project-item-container{
+    display: flex;
+    width:800px;
+    justify-content: space-evenly;
+    border:2px solid #cbcaca;
+    border-radius: 10px;
+    margin:10px 0;
+    padding:10px;
+    background: linear-gradient(#f1f0f0, #e0e0e0);
+}
+.project-col{
+
+}

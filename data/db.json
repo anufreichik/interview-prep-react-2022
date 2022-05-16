@@ -1,0 +1,56 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Project1",
+      "description": "description",
+      "lastBidDate": "05/05/2022 23:59:59"
+    },
+    {
+      "id": 2,
+      "title": "Project2",
+      "description": "description",
+      "lastBidDate": "05/09/2022 23:59:59"
+    },
+    {
+      "id": 3,
+      "title": "Project3",
+      "description": "description",
+      "lastBidDate": "06/12/2022 12:00:00"
+    }
+  ],
+  "bids": [
+    {
+      "id": "01oTrnwUPQY1c5pWLznlr",
+      "projectid": 1,
+      "bidPrice": 9,
+      "bidderid": 1
+    },
+    {
+      "id": "nors96LNJJrs5z_d8-S3k",
+      "projectid": 1,
+      "bidPrice": 4,
+      "bidderid": 1
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "buildingid": 1,
+      "floor": 2,
+      "name": "Blue Ocean"
+    },{
+      "id": 2,
+      "buildingid": 1,
+      "floor": 3,
+      "name": "Sunset"
+    }
+  ],
+  "roomschedule": [
+    {
+      "roomid": 1,
+      "date": "04/20/2022",
+      "time": 10
+    }
+  ]
+}

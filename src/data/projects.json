@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Project1",
+    "description": "description",
+    "lastBidDate": "05/05/2022"
+  },
+  {
+    "id": 2,
+    "title": "Project2",
+    "description": "description",
+    "lastBidDate": "05/05/2022"
+  },
+  {
+    "id": 3,
+    "title": "Project3",
+    "description": "description",
+    "lastBidDate": "05/05/2022"
+  }
+]

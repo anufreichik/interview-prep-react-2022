@@ -4,6 +4,8 @@ import {Route, Routes} from "react-router-dom";
 import Layout from "./components/Layout";
 import DebounceInput from "./components/Debounce/Debounce";
 import Autocomplete from "./components/Autocomplete/Autocomplete";
+import ProjectsList from "./components/Jobs/ProjectsList";
+import Office from "./components/Office/Office";
 
 function App() {
     return (
@@ -14,6 +16,8 @@ function App() {
                 <Route path="todo" element={<TodoList />} />
                 <Route path="debounce" element={<DebounceInput />} />
                 <Route path="autocomplete" element={<Autocomplete />} />
+                <Route path="marketplace" element={<ProjectsList />} />
+                <Route path="office" element={<Office />} />
             </Route>
         </Routes>
     );

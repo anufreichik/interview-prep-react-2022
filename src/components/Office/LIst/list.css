@@ -19,6 +19,7 @@
     position: sticky;
     top: 10px;
     height: max-content;
+    min-width:200px;
 }
 .searchItem{
     display: flex;
@@ -42,12 +43,12 @@
     padding: 5px;
 }
 .listResult{
-    flex:3;
+    flex:2;
 }
 
 .searchItem>button{
     padding: 10px;
-    background-color: #0071c2;
+    background-color: #2c7df3;
     color: white;
     border: none;
     width: 100%;

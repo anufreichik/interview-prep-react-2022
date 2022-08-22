@@ -10,13 +10,14 @@ const Navbar = () => {
                 </div>
                 <div className="navItems">
                     <nav>
-                        <Link to="/">Home</Link> |{" "}
+                        <Link to="/" className='navLink'>Home</Link> |{" "}
                         <Link to="todo">Todos</Link> |{" "}
                         <Link to="algoquestions">AlgoQuestions</Link>|{" "}
                         <Link to="debounce">Debounce</Link>|{" "}
                         <Link to="autocomplete">Autocomplete</Link>|{" "}
                         <Link to="marketplace">Market Place</Link>|{" "}
                         <Link to="office">Office</Link>|{" "}
+                        <Link to="shoppping">Shopping Store</Link>|{" "}
                     </nav>
                     <button className="navButton">Register</button>
                     <button className="navButton">Login</button>

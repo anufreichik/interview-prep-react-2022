@@ -6,6 +6,7 @@ import DebounceInput from "./components/Debounce/Debounce";
 import Autocomplete from "./components/Autocomplete/Autocomplete";
 import ProjectsList from "./components/Jobs/ProjectsList";
 import Office from "./components/Office/Office";
+import ShoppingStore from "./components/ShoppingCart/ShoppingStore";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 <Route path="autocomplete" element={<Autocomplete />} />
                 <Route path="marketplace" element={<ProjectsList />} />
                 <Route path="office" element={<Office />} />
+                <Route path="shoppping" element={<ShoppingStore />} />
             </Route>
         </Routes>
     );

@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 const DebounceInput = () => {
     const [inputValue, setInputValue] = useState('');
     const [inputValueNoDebounce, setInputValueNoDebounce] = useState('');
+
     const debounce = (callback, delay) => {
         let timer;
         return function (...args) {

@@ -13,11 +13,17 @@ export const cartReducer=(state, action)=>{
             };
         case "CHANGE_CART_QTY":
             return {
-                ...state,
-                cart: state.cart.filter((c) =>
-                    c.id === action.payload.id ? (c.qty = action.payload.qty) : c.qty
-                ),
-            };
+                ...state, cart: state.cart.map(el=>{
+                    if(el.id===action.payload.id) return {...el, qty:action.payload.qty}
+                    else return el;
+                })
+            }
+            // return {
+            //     ...state,
+            //     cart: state.cart.filter((c) =>
+            //         c.id === action.payload.id ? (c.qty = action.payload.qty) : c.qty
+            //     ),
+            // };
         default:
             return state;
     }

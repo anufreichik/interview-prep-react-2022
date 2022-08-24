@@ -1,0 +1,28 @@
+export const seatsInitialData=[
+    {id:1, row:1, col:1, status:0},
+    {id:2, row:1, col:2,  status:0},
+    {id:3, row:1, col:3,  status:0},
+    {id:4, row:1, col:4,  status:0},
+    {id:5, row:1, col:5,  status:0},
+    {id:6, row:1, col:6,  status:0},
+    {id:7, row:1, col:7,  status:0},
+    {id:8, row:1, col:8,  status:0},
+
+    {id:9, row:2, col:1,  status:0},
+    {id:10, row:2, col:2,  status:0},
+    {id:11, row:2, col:3,  status:0},
+    {id:12, row:2, col:4,  status:0},
+    {id:13, row:2, col:5,  status:0},
+    {id:14, row:2, col:6,  status:0},
+    {id:15, row:2, col:7,  status:0},
+    {id:16, row:2, col:8,  status:0},
+
+    {id:17, row:3, col:1,  status:0},
+    {id:18, row:3, col:2,  status:0},
+    {id:19, row:3, col:3,  status:0},
+    {id:20, row:3, col:4,  status:0},
+    {id:21, row:3, col:5,  status:0},
+    {id:22, row:3, col:6,  status:0},
+    {id:23, row:3, col:7,  status:0},
+    {id:24, row:3, col:8,  status:0},
+]

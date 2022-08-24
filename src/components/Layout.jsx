@@ -7,7 +7,7 @@ const Layout = () => {
     return (
         <div>
           <Navbar/>
-            <Header/>
+            {/*<Header/>*/}
             <div className="content">
                 <main>
                     <Outlet />

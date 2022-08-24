@@ -1,0 +1,43 @@
+.likebutton{
+    height: 40px;
+    border:none;
+    color: blue;
+    margin:10px;
+    padding:10px;
+}
+.likebutton.liked{
+    color:darkgray;
+}
+.heart{
+    width:25px;
+    height: 25px;
+    background-color: red;
+    position: relative;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+.heart:before,
+.heart:after{
+    content:'';
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+}
+.heart:before{
+    left:-10px;
+}
+.heart:after{
+    top:-10px;
+}
+.heart-liked{
+    background-color: gray;
+}
+.heart-liked:before,
+.heart-liked:after{
+    background-color: gray;
+    z-index: 2;
+}
+
+

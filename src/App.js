@@ -7,6 +7,8 @@ import Autocomplete from "./components/Autocomplete/Autocomplete";
 import ProjectsList from "./components/Jobs/ProjectsList";
 import Office from "./components/Office/Office";
 import ShoppingStore from "./components/ShoppingCart/ShoppingStore";
+import MovieBooking from "./components/MovieBooking/MovieBooking";
+import Widgets from "./components/Widgets/Widgets";
 
 function App() {
     return (
@@ -20,6 +22,8 @@ function App() {
                 <Route path="marketplace" element={<ProjectsList />} />
                 <Route path="office" element={<Office />} />
                 <Route path="shoppping" element={<ShoppingStore />} />
+                <Route path="moviebooking" element={<MovieBooking />} />
+                <Route path="widgets" element={<Widgets />} />
             </Route>
         </Routes>
     );

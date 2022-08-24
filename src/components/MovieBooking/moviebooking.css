@@ -1,0 +1,31 @@
+.movie-container{
+    background-color: #282c34;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+.legend-container {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #777;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.legend-container li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.legend-container li small {
+    margin-left: 10px;
+}

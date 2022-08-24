@@ -3,8 +3,10 @@
     background-color: #2c7df3;
     display: flex;
     justify-content: center;
+    padding:20px;
 }
 .navContainer{
+
     width:100%;
     max-width: 1024px;
     display: flex;
@@ -22,7 +24,14 @@
     display: flex;
     justify-content: space-between;
 }
+.navLinks{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
 
+}
+.navButtonsContainer{
+    display: flex;
+}
 .navButton{
     margin-left: 20px;
     border: none;
@@ -37,4 +46,7 @@ a,a:visited{
 }
 a:hover{
     color:lightblue;
+}
+.navLinks>a{
+    padding:15px;
 }

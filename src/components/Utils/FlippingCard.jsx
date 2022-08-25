@@ -2,13 +2,17 @@ import React, {useState} from 'react';
 import './flippingcard.css'
 
 const FlippingCard = ({contentFront,contentBack}) => {
-    const [isFront, setIsFront] = useState(true);
+    const [isFlipped, setIsFlipped] = useState(false);
     const handleClick=()=>{
-        setIsFront((prev)=>!prev);
+        setIsFlipped((prev)=>!prev);
     }
     return (
-        <div className='card' onClick={handleClick}>
-            {isFront?contentFront:contentBack}
+        <div className='card-container' >
+            <div className={`card ${isFlipped?'flipped':''}`} onMouseEnter={handleClick} onMouseLeave={handleClick}>
+                <div className='front'>{contentFront}</div>
+                <div className='back'>{contentBack}</div>
+            </div>
+
         </div>
     );
 };

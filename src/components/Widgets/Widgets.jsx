@@ -2,6 +2,7 @@ import React from 'react';
 import LikeButton from "../Utils/LikeButton";
 import FlippingCard from "../Utils/FlippingCard";
 import FormatedDate from "../Utils/FormatedDate";
+import StarRating from "../Utils/StarRating";
 
 
 const Widgets = () => {
@@ -14,6 +15,7 @@ const Widgets = () => {
             <LikeButton title={'Like'}/>
             <FlippingCard contentFront={front} contentBack={back}/>
             <FormatedDate inputDate={dateToFormat} format={'MM-DD-YYYY'}/>
+            <StarRating/>
         </div>
     );
 };

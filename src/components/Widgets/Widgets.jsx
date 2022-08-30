@@ -1,13 +1,16 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import LikeButton from "../Utils/LikeButton";
 import FlippingCard from "../Utils/FlippingCard";
 import FormatedDate from "../Utils/FormatedDate";
 import StarRating from "../Utils/StarRating";
+import Pagination from "../Utils/Pagination";
+
 
 
 const Widgets = () => {
     const front='FRONT!';
     const back='BACK!';
+
 
     const dateToFormat = new Date();
     return (
@@ -16,6 +19,7 @@ const Widgets = () => {
             <FlippingCard contentFront={front} contentBack={back}/>
             <FormatedDate inputDate={dateToFormat} format={'MM-DD-YYYY'}/>
             <StarRating/>
+
         </div>
     );
 };

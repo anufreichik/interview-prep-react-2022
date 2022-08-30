@@ -13,11 +13,10 @@ const StarRating = () => {
             {
                 [...Array(5)].map((star, index) => {
                     return (
-                        <div className={`star ${index <= (hover || rating) ? 'on' : ''}`}
+                        <div key={index} className={`star ${index <= (hover || rating) ? 'on' : ''}`}
                              onClick={() => handleStarClick(index)}
                              onMouseEnter={() => setHover(index)}
                              onMouseLeave={() => setHover(rating)}
-
                         ></div>
                     )
                 })

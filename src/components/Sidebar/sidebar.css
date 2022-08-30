@@ -1,0 +1,20 @@
+.navLinks{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  minmax(min-content, max-content);
+    align-items: start;
+    height: 100%;
+    width:200px;
+}
+a,a:visited{
+    color: #2c7df3;
+    text-decoration: none;
+    padding:5px;
+}
+a:hover{
+    color:lightblue;
+}
+.navLinks>a{
+    padding:15px;
+}
+

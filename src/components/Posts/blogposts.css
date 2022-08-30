@@ -1,0 +1,6 @@
+.blog-posts-container{
+    display: flex;
+    min-width: 1070px;
+    margin:20px auto;
+    flex-direction: column;
+}

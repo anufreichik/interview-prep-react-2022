@@ -9,6 +9,7 @@ import Office from "./components/Office/Office";
 import ShoppingStore from "./components/ShoppingCart/ShoppingStore";
 import MovieBooking from "./components/MovieBooking/MovieBooking";
 import Widgets from "./components/Widgets/Widgets";
+import BlogPosts from "./components/Posts/BlogPosts";
 
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
                 <Route path="shoppping" element={<ShoppingStore />} />
                 <Route path="moviebooking" element={<MovieBooking />} />
                 <Route path="widgets" element={<Widgets />} />
+                <Route path='posts' element={<BlogPosts/>} />
             </Route>
         </Routes>
     );

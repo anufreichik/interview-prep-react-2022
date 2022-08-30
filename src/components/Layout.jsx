@@ -1,15 +1,17 @@
 import React from 'react';
-import {Link, Outlet} from "react-router-dom";
+import { Outlet} from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
-import Header from "./Header/Header";
+import './layout.css';
+import Sidebar from "./Sidebar/Sidebar";
+
 
 const Layout = () => {
     return (
         <div>
           <Navbar/>
-            {/*<Header/>*/}
-            <div className="content">
-                <main>
+            <div className="layout-content">
+                <Sidebar/>
+                <main className='main-container'>
                     <Outlet />
                 </main>
             </div>

@@ -1,0 +1,28 @@
+.pagination-container{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    margin:20px auto;
+}
+.pagination-item{
+    width:30px;
+    height: 30px;
+    border: 1px solid darkgray;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    cursor: pointer;
+}
+.pagination-item.selected{
+    background-color: #ddeafd;
+}
+.pagination-next, .pagination-prev{
+    cursor:pointer;
+    font-weight: 700;
+}
+div[disabled]
+{
+    pointer-events: none;
+    opacity: 0.4;
+}

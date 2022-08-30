@@ -1,0 +1,15 @@
+.list-group-container{
+    display: flex;
+    flex-direction: column;
+    margin:20px auto;
+    min-width: 500px;
+
+}
+.list-group-item{
+    list-style: none;
+    font-size:12px;
+    color:gray;
+    padding:8px;
+    background-color: #ddeafd;
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,24 @@
+.game-container{
+    display: flex;
+    width:1070px;
+    margin:auto;
+    flex-direction: column;
+    align-items: center;
+}
+table td{
+    border:1px solid black;
+    width: 100px;
+    height: 100px;
+    text-align:center;
+    cursor: pointer;
+    color:green;
+    font-weight: 700;
+}
+.button-reset{
+    margin:10px 0;
+    background-color: whitesmoke;
+    border:1px solid darkgray;
+    padding: 10px;
+    color:green;
+    border-radius: 8px;
+}

@@ -16,6 +16,7 @@ const Sidebar=()=>{
             <Link to="moviebooking">Movies Booking</Link>
             <Link to="posts">Posts With Pagination</Link>
             <Link to="widgets">Widgets</Link>
+            <Link to="tictactoe">Tic Tac Toe</Link>
         </nav>
     )
 }

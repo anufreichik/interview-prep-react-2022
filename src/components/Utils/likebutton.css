@@ -16,8 +16,8 @@
     transform: rotate(45deg);
     cursor:pointer;
 }
-.heart:before,
-.heart:after{
+.heart::before,
+.heart::after{
     content:'';
     width:25px;
     height: 25px;
@@ -25,17 +25,17 @@
     position: absolute;
     background-color: red;
 }
-.heart:before{
+.heart::before{
     left:-10px;
 }
-.heart:after{
+.heart::after{
     top:-10px;
 }
 .heart-liked{
     background-color: gray;
 }
-.heart-liked:before,
-.heart-liked:after{
+.heart-liked::before,
+.heart-liked::after{
     background-color: gray;
     z-index: 2;
 }

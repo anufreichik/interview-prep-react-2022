@@ -11,9 +11,13 @@ import MovieBooking from "./components/MovieBooking/MovieBooking";
 import Widgets from "./components/Widgets/Widgets";
 import BlogPosts from "./components/Posts/BlogPosts";
 import TicTacToe from "./components/TicTacToe/TicTacToe";
+import Slider from './components/Slider/Slider'
+import Parent from "./components/ContextAPIExample/Parent";
+import AppContextProvider from "./components/context/AppContext";
 
 function App() {
     return (
+        <AppContextProvider>
         <Routes>
             <Route path="/" element={<Layout />}>
                 <Route index element={<AlgoQuestionsSummary />} />
@@ -28,8 +32,11 @@ function App() {
                 <Route path="widgets" element={<Widgets />} />
                 <Route path='posts' element={<BlogPosts/>} />
                 <Route path='tictactoe' element={<TicTacToe/>} />
+                <Route path='slider' element={<Slider/>} />
+                <Route path='context' element={<Parent/>} />
             </Route>
         </Routes>
+        </AppContextProvider>
     );
 }
 

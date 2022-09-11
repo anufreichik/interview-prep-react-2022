@@ -2,8 +2,8 @@ import {Link} from "react-router-dom";
 import React from "react";
 import './sidebar.css'
 
-const Sidebar=()=>{
-    return(
+const Sidebar = () => {
+    return (
         <nav className='navLinks'>
             <Link to="/">Home</Link>
             <Link to="todo">Todos</Link>
@@ -17,6 +17,8 @@ const Sidebar=()=>{
             <Link to="posts">Posts With Pagination</Link>
             <Link to="widgets">Widgets</Link>
             <Link to="tictactoe">Tic Tac Toe</Link>
+            <Link to="slider">Slider</Link>
+            <Link to="context">Context API Example</Link>
         </nav>
     )
 }

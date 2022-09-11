@@ -1,10 +1,8 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import LikeButton from "../Utils/LikeButton";
 import FlippingCard from "../Utils/FlippingCard";
 import FormatedDate from "../Utils/FormatedDate";
 import StarRating from "../Utils/StarRating";
-import Pagination from "../Utils/Pagination";
-
 
 
 const Widgets = () => {

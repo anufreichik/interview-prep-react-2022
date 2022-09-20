@@ -14,6 +14,7 @@ import TicTacToe from "./components/TicTacToe/TicTacToe";
 import Slider from './components/Slider/Slider'
 import Parent from "./components/ContextAPIExample/Parent";
 import AppContextProvider from "./components/context/AppContext";
+import AddressBook from "./components/AddressBook/AddressBook";
 
 function App() {
     return (
@@ -34,6 +35,7 @@ function App() {
                 <Route path='tictactoe' element={<TicTacToe/>} />
                 <Route path='slider' element={<Slider/>} />
                 <Route path='context' element={<Parent/>} />
+                <Route path='addressbook' element={<AddressBook/>} />
             </Route>
         </Routes>
         </AppContextProvider>

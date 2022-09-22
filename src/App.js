@@ -1,6 +1,6 @@
 import TodoList from "./components/Todo/TodoList";
 import AlgoQuestionsSummary from "./components/AlgoQuestions/AlgoQuestionsSummary";
-import {Route, Routes} from "react-router-dom";
+import {Link, Route, Routes} from "react-router-dom";
 import Layout from "./components/Layout";
 import DebounceInput from "./components/Debounce/Debounce";
 import Autocomplete from "./components/Autocomplete/Autocomplete";
@@ -15,6 +15,9 @@ import Slider from './components/Slider/Slider'
 import Parent from "./components/ContextAPIExample/Parent";
 import AppContextProvider from "./components/context/AppContext";
 import AddressBook from "./components/AddressBook/AddressBook";
+import Accordion from "./components/Accordion/Accordion";
+import Popover from "./components/Popover/Popover";
+
 
 function App() {
     return (
@@ -36,6 +39,8 @@ function App() {
                 <Route path='slider' element={<Slider/>} />
                 <Route path='context' element={<Parent/>} />
                 <Route path='addressbook' element={<AddressBook/>} />
+                <Route path='accordion' element={<Accordion/>} />
+                <Route path='popover' element={<Popover/>} />
             </Route>
         </Routes>
         </AppContextProvider>

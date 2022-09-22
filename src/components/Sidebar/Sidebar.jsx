@@ -20,6 +20,8 @@ const Sidebar = () => {
             <Link to="slider">Slider</Link>
             <Link to="context">Context API Example</Link>
             <Link to="addressbook">AddressBook</Link>
+            <Link to="accordion">Accordion</Link>
+            <Link to="popover">Popover</Link>
         </nav>
     )
 }

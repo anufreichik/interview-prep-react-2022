@@ -1,0 +1,26 @@
+.popover-button{
+    border:1px solid #2c7df3;
+    background: #2c7df3;
+    color:white;
+    cursor: pointer;
+    padding:5px;
+    text-align: center;
+    width:200px;
+}
+
+.container-content{
+    position: absolute;
+    padding:10px;
+    top:35px;
+    box-shadow: gray 1px 3px 3px 1px;
+    border:none;
+    background: none;
+
+}
+.popover-container{
+    position:relative;
+}
+.wrapper{
+    margin:20px auto;
+    max-width:1180px;
+}

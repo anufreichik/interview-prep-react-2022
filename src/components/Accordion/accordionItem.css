@@ -1,0 +1,21 @@
+.item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:2rem;
+    color: #444444;
+    width: 100%;
+
+}
+.accordion-container{
+    border:1px solid lightblue;
+    max-width:900px;
+    padding: 10px;
+}
+.item-container button{
+    border:none;
+   text-transform: uppercase;
+    cursor: pointer;
+}
+.accordion-details{
+}

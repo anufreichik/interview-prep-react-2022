@@ -22,6 +22,7 @@ const Sidebar = () => {
             <Link to="addressbook">AddressBook</Link>
             <Link to="accordion">Accordion</Link>
             <Link to="popover">Popover</Link>
+            <Link to="photos">Photos</Link>
         </nav>
     )
 }

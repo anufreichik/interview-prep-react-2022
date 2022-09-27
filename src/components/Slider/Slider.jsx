@@ -15,6 +15,7 @@ const Slider = ()=>{
         if(currentIndex<slidesData.length-1) setCurrentIndex((prev)=>currentIndex+1);
         else setCurrentIndex(0);
     }
+
     const handlePrevClick=()=>{
             if(currentIndex>0) setCurrentIndex((prev)=>currentIndex-1);
             else setCurrentIndex(slidesData.length-1);

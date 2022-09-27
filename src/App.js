@@ -17,6 +17,7 @@ import AppContextProvider from "./components/context/AppContext";
 import AddressBook from "./components/AddressBook/AddressBook";
 import Accordion from "./components/Accordion/Accordion";
 import Popover from "./components/Popover/Popover";
+import Photos from "./components/Photos/Photos";
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
                 <Route path='addressbook' element={<AddressBook/>} />
                 <Route path='accordion' element={<Accordion/>} />
                 <Route path='popover' element={<Popover/>} />
+                <Route path='photos' element={<Photos/>} />
             </Route>
         </Routes>
         </AppContextProvider>

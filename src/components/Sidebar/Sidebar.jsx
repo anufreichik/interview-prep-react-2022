@@ -10,6 +10,7 @@ const Sidebar = () => {
             <Link to="algoquestions">AlgoQuestions</Link>
             <Link to="debounce">Debounce</Link>
             <Link to="autocomplete">Autocomplete</Link>
+            <Link to="autocompleteapi">Autocomplete From API</Link>
             <Link to="marketplace">Market Place</Link>
             <Link to="office">Office</Link>
             <Link to="shoppping">Shopping Store</Link>

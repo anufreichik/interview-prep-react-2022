@@ -18,6 +18,7 @@ import AddressBook from "./components/AddressBook/AddressBook";
 import Accordion from "./components/Accordion/Accordion";
 import Popover from "./components/Popover/Popover";
 import Photos from "./components/Photos/Photos";
+import AutocompleteFromAPI from "./components/Autocomplete/AutocompleteFromAPI";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
                 <Route path="todo" element={<TodoList />} />
                 <Route path="debounce" element={<DebounceInput />} />
                 <Route path="autocomplete" element={<Autocomplete />} />
+                <Route path="autocompleteapi" element={<AutocompleteFromAPI />} />
                 <Route path="marketplace" element={<ProjectsList />} />
                 <Route path="office" element={<Office />} />
                 <Route path="shoppping" element={<ShoppingStore />} />

@@ -18,7 +18,7 @@
     align-items: center;
     display: flex;
 }
-input{
+.search-container >input{
     height: 30px;
     width: 300px;
     border-radius: 5px;

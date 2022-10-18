@@ -19,6 +19,7 @@ import Accordion from "./components/Accordion/Accordion";
 import Popover from "./components/Popover/Popover";
 import Photos from "./components/Photos/Photos";
 import AutocompleteFromAPI from "./components/Autocomplete/AutocompleteFromAPI";
+import CheckboxFilter from "./components/CheckboxGroup/CheckboxFilter";
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
                 <Route path='accordion' element={<Accordion/>} />
                 <Route path='popover' element={<Popover/>} />
                 <Route path='photos' element={<Photos/>} />
+                <Route path='checkboxes' element={<CheckboxFilter/>} />
             </Route>
         </Routes>
         </AppContextProvider>
